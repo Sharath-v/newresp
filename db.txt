@@ -1,0 +1,24 @@
+>create table Studentdetails(Studentname varchar(10), Age number(2),Branch varchar(5),Yearandsemister float(3),previoussemisterScore number(2));
+//created a table with required fields
+
+>insert into  Studentdetails values('hari',21,'CSE',2.1,82);
+  // to enter details into the table
+>insert into  Studentdetails values('ram',25,'ECE',2.1,80);
+
+>insert into  Studentdetails values('vikram',25,'CSE',2.1,78);
+
+>insert into  Studentdetails values('vishwa',25,'EEE',2.1,72);
+
+>insert into  Studentdetails values('soma',25,'ECE',2.1,64);
+
+>insert into  Studentdetails values('mani',25,'CSE',2.1,89);
+
+
+>select * from  Studentdetails;  // to display the student details
+//we can insert more data depending upon the requirement using th insert query
+
+//to filter the data based upon the th previous semester score
+>select * from  Studentdetails order by previousyearsemesterscore;
+
+
+
